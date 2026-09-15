@@ -1,8 +1,15 @@
-print('Введите дату свою дату рождения:')
+print('Введите год своего дня рождения:')
 a=int(input())
 print('Введите текущий год:')
 b=int(input())
-print(b-a)
+print('Введите месяц вашего дня рождения:')
+c=int(input())
+print('Введите текущий месяц:')
+d=int(input())
+if d>c:
+    print(b-a)
+else:
+    print((b-a)-1)
 
 a=3
 b=4
